@@ -1,0 +1,81 @@
+{
+  "movie": [
+    {
+      "id": "f5cd",
+      "name": "Rohit Meena",
+      "age": "23",
+      "number": "07999932294",
+      "city": "Vidisha",
+      "date": "2025-06-05",
+      "time": "2:30",
+      "seat": "2",
+      "total": 200
+    },
+    {
+      "id": "68c3",
+      "name": "Rohit Meena",
+      "age": "24",
+      "number": "7999932294",
+      "city": "Vidisha",
+      "date": "2025-06-11",
+      "time": "5:30",
+      "seat": "2",
+      "total": 200
+    },
+    {
+      "id": "3049",
+      "name": "Rohit Meena",
+      "age": "32",
+      "number": "7999932294",
+      "city": "Vidisha",
+      "date": "2025-06-05",
+      "time": "2:30",
+      "seat": "2",
+      "total": 200
+    },
+    {
+      "id": "65b4",
+      "name": "Rohit Meena",
+      "age": "23",
+      "number": "07999932294",
+      "city": "Bhopal",
+      "date": "2025-06-04",
+      "time": "5:30",
+      "seat": "3",
+      "total": 200
+    },
+    {
+      "id": "d3c7",
+      "name": "Rohit Meena",
+      "age": "24",
+      "number": "07999932294",
+      "city": "Vidisha",
+      "date": "2025-06-04",
+      "time": "",
+      "seat": "2",
+      "total": 200
+    },
+    {
+      "id": "ed8b",
+      "name": "Rohit Meena",
+      "age": "24",
+      "number": "07999932294",
+      "city": "Sehore",
+      "date": "2025-06-04",
+      "time": "2:30",
+      "seat": "2",
+      "total": 200
+    },
+    {
+      "id": "85a1",
+      "name": "ajay",
+      "age": "24",
+      "number": "7999932294",
+      "city": "Bhopal",
+      "date": "2025-07-12",
+      "time": "5:30",
+      "seat": "5",
+      "total": 200
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Playwrite+RO:wght@100..400&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+
+    <link rel="stylesheet" href="home.css">
+    
+</head>
+ <body>
+
+    <nav class="navbar">
+
+        <img src="/images/logo.png" alt="">
+
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a> </li>
+            <li><a href="">CONTACT</a> </li>
+            <li><a href="" onclick=" return bookings()"> YOUR BOOKINGS</a></li>
+            
+        </ul>
+
+        <button id="logoutbtn" onclick=" return logout()">LOG OUT</button>
+
+    
+        
+    </nav>
+
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/kesari2" alt=""><h1 >KESARI 2</h1><button  onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="images/raid2" alt=""><h1 >RAID 2</h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/singham return.webp " alt=""><h1>SINGHAM RETURN</h1><br><br><p>Bajirao Singham, an honest police officer, encounters Babaji,<br> a god-man with connections to high profile politicians,<br> when he investigates the death of an officer from his team.</p><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/bloodydady.webp" alt=""><h1>BLOODYDADY</h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/cuttiputli.webp" alt=""><h1>CUTTPUTLI</h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/humdohamaredo.webp" alt=""><h1> HUM DO <br> HAMARE DO</h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/sitaramam.webp" alt=""><h1>SITA RAMAM </h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/vikramveda.avif" alt=""><h1> VIKRAM VEDA</h1><button onclick="return booknow()">BOOK NOW</button></div>
+      <div class="swiper-slide"><img src="/images/Tanhaji.webp" alt=""><h1>TANHAJI</h1><button onclick="return booknow()">BOOK NOW</button></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div id="maindiv1">
+     <div  id="div1" data-aos="flip-left" data-aos-duration="2000"><img src="/images/war2.jpg" alt=""><h1>WAR 2</h1><p>Action  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-left" data-aos-duration="2000"><img src="/images/sitarezameenpar.avif" alt=""><h1>Sitare Zammen Par</h1><p>Drama  UA13</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-left" data-aos-duration="2000"><img src="/images/siddat.jpg" alt=""><h1>Shiddat</h1><p>Romantic  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-left" data-aos-duration="2000"><img src="/images/Pathan.jpg" alt=""><h1>Pathan</h1><p>Action  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     
+  </div>
+
+  <div id="maindiv1" >
+     <div id="div1" data-aos="zoom-out-right" data-aos-duration="2000"><img src="/images/kanguva.jpeg" alt=""><h1>Knguva</h1><p>Action  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-out-right" data-aos-duration="2000"><img src="/images/avengers.jpg" alt=""><h1>Avengers</h1><p>Action  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-out-right" data-aos-duration="2000"><img src="/images/housefull5.avif" alt=""><h1>HouseFull 5</h1><p>Action/Comedy  UA13</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-out-right" data-aos-duration="2000"><img src="/images/avtaar.jpg" alt=""><h1>Avtaar</h1><p>Action/drama  UA15</p><button onclick="return booknow()">BOOK NOW</button></div>
+     
+  </div>
+
+  <div id="maindiv1">
+     <div id="div1" data-aos="zoom-in-down" data-aos-duration="2000"><img src="/images/haramkhor.webp" alt=""><h1>Haramkhor</h1><p>Action/Love  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-in-down" data-aos-duration="2000"><img src="/images/azaad.jpg" alt=""><h1>Azaad</h1><p>Action/Drama  UA15</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-in-down" data-aos-duration="2000"> <img src="/images/bhoot bangla.jpg" alt=""><h1>Bhoot Bangla</h1><p>Action/Horor  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="zoom-in-down" data-aos-duration="2000"><img src="/images/chaava.jpg" alt=""><h1>Chhaava</h1><p>Action/Historic  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     
+  </div>
+
+  <div id="maindiv1">
+     <div id="div1" data-aos="flip-up" data-aos-duration="2000"><img src="/images/shamshera.jpg" alt=""><h1>Shamshera</h1><p>Action  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-up" data-aos-duration="2000"><img src="/images/bhediya.jpg" alt=""><h1>Bhediya</h1><p>Action/Drama  UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-up" data-aos-duration="2000"><img src="/images/brahmastra.jpg" alt=""><h1>Brahmastra</h1><p>Action/Drama  UA15</p><button onclick="return booknow()">BOOK NOW</button></div>
+     <div id="div1" data-aos="flip-up" data-aos-duration="2000"><img src="/images/kalki.jpg" alt=""><h1>kalki</h1><p>Action/Drama   UA16</p><button onclick="return booknow()">BOOK NOW</button></div>
+     
+  </div>
+
+  <footer>
+   <div id="footer">
+      <div id="footer1">
+         <h1>Browse All</h1> <br>
+         <p>Now Showing</p><br>
+         <p>Coming Soon</p><br>
+         <p>Movies</p><br>
+         
+      
+      
+      </div>
+      <div id="footer1">
+         <h1>Links</h1> <br>
+         <p>Register</p><br>
+         <p>Login</p><br>
+         <p>Order</p><br>
+         <p>Help</p><br>
+      
+      
+      </div>
+      <div id="footer1">
+         <h1>Theaters</h1> <br><br>
+         <p>Bharat Cineplex</p><br>
+         <p>Sangam Cineplex</p><br>
+         <p>Gold Cinema</p><br>
+         <p>Jyoti Cineplex</p><br>
+      
+      
+      </div>
+      <div id="footer1">
+         <h1>Connect With Us</h1><br>
+         <p>FaceBook</p> <br>
+         <p>Tweeter</p><br>
+         <p>Instagram</p><br>
+      </div>
+   </div>
+  </footer>
+
+  
+
+  
+   
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="slidderHome.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+
+ </body>
+ </html>
+ 
+ 
+ 

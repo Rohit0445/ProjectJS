@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bookingform.css">
+</head>
+<body>
+    <div id="bookingform">
+    <form action="">
+        Enter Name <input type="text" id="name" required> <br><br>
+        Enter Age <input type="number" id="age" required><br><br>
+        Enter Mobile.No <input type="number" id="mobile" required><br><br>
+       
+
+         Enter City <select name="" id="City" required>
+            <option value="">Select City</option>
+            <option value="Bhopal">Bhopal</option>
+            <option value="Sehore">Sehore</option>
+            <option value="Vidisha">Vidisha</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Indore">Indore</option>
+            <option value="Ujjain">Ujjain</option>
+         </select> <br><br>
+
+
+
+
+        Enter Date <input type="date" id="date" required><br><br>
+
+
+        select time <select name="" id="time" required>
+            <option value="">Select Time</option>
+        <option value="2:30">2:30</option>
+        <option value="5:30">5:30</option>
+        <option value="8:30">8:30</option>
+        <option value="12:30">12:30</option>
+    
+        </select><br><br>
+
+
+        Enter Number of Seats <input id="seats" type="number" required><br><br>
+        
+        <input type="submit" name="" id="submitbtn" onclick="return insertdata()">
+    </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="crud.js"></script>
+</body>
+</html>
