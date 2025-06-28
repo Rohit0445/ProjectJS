@@ -42,7 +42,7 @@ let showdata=(data)=>{
                      <td>${e.seat} </td>        
                      <td>${e.total*e.seat} </td>        
                      <td onclick="Del('${e.id}')">Delete </td>  
-                     <td onclick="update('${e.id}')">Update </td>.
+                     <td onclick="update('${e.id}')">Update </td>
                      
                 </tr>
                              
