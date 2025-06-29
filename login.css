@@ -1,57 +1,61 @@
-body{
-
-    background-image: url(/images/face-with-cinema-elements.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-#logindiv{
+#maindiv{
+
     position: absolute;
-    top: 200px;
-    right: 300px;
-    box-shadow: 10px 10px 20px 10px black;
-    height: 300px;
-    width: 25%;
-    font-size: 20px;
-    
+    left: 200px;
+    top: 80px;
 }
 
-#logindiv form{
-    font-size:20px;
-    width: 80%;
-    height: 254px;
+#logindiv {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 450px;
+  position: relative;
+  left: 100px;
+  top: 100px;
 }
 
-/* input{
-    position: relative;
-    left: 50px;
-} */
-
-#loginname{
-    position: relative;
-    left: 0px;
-    height: 20px;
-     width: 250px;
-    
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-#loginpass{
-    position: relative;
-    left: 0px;
-    height: 20px;
-    width: 250px;
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
 }
 
-#loginbtn{
-    position: relative;
-    left: 80px;
-    width: 100px;
-    border: 2px solid black;
-    border-radius: 10px;
+#loginbtn {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-#loginbtn:hover{
-    background-color: black;
-    border: 2px solid white;
-    color: white;
+#loginbtn:hover {
+  background: #388e3c;
 }

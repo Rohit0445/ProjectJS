@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="crud.css">
 </head>
 <body>
     
-   search <input type="text" id="searchinp" oninput="searchh()"><br><br>
+  <h3>search</h3>  <input type="text" id="searchinp" oninput="searchh()"><br><br>
 
-    <table border="2px">
+    <table border="2px"  id="table">
         <thead>
             <tr>
-                <th>Name</th>
+                <th >Name</th>
                 <th>Age</th>
                 <th>Mobile</th>
                 <th>City</th>
@@ -27,7 +28,11 @@
         <tbody id="display">
 
         </tbody>
+
+         
     </table>
+
+    <!-- <div class="updateform"></div> -->
 
 
     <script src="crud.js"></script>
